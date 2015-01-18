@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		91819B421A69B2DF00B8A41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819B411A69B2DF00B8A41F /* AppDelegate.swift */; };
 		91819B441A69B2DF00B8A41F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819B431A69B2DF00B8A41F /* ViewController.swift */; };
-		91819B471A69B2DF00B8A41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91819B451A69B2DF00B8A41F /* Main.storyboard */; };
 		91819B491A69B2DF00B8A41F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91819B481A69B2DF00B8A41F /* Images.xcassets */; };
 		91819B4C1A69B2DF00B8A41F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91819B4A1A69B2DF00B8A41F /* LaunchScreen.xib */; };
 		91819B581A69B2DF00B8A41F /* CodeDesignChapter1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819B571A69B2DF00B8A41F /* CodeDesignChapter1Tests.swift */; };
+		919BCCA61A6AD8B100330649 /* Main_iPhoneV2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919BCCA51A6AD8B100330649 /* Main_iPhoneV2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		91819B401A69B2DF00B8A41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91819B411A69B2DF00B8A41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91819B431A69B2DF00B8A41F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91819B461A69B2DF00B8A41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91819B481A69B2DF00B8A41F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91819B4B1A69B2DF00B8A41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		91819B511A69B2DF00B8A41F /* CodeDesignChapter1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeDesignChapter1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91819B561A69B2DF00B8A41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91819B571A69B2DF00B8A41F /* CodeDesignChapter1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDesignChapter1Tests.swift; sourceTree = "<group>"; };
+		919BCCA51A6AD8B100330649 /* Main_iPhoneV2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhoneV2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			children = (
 				91819B411A69B2DF00B8A41F /* AppDelegate.swift */,
 				91819B431A69B2DF00B8A41F /* ViewController.swift */,
-				91819B451A69B2DF00B8A41F /* Main.storyboard */,
+				919BCCA51A6AD8B100330649 /* Main_iPhoneV2.storyboard */,
 				91819B481A69B2DF00B8A41F /* Images.xcassets */,
 				91819B4A1A69B2DF00B8A41F /* LaunchScreen.xib */,
 				91819B3F1A69B2DF00B8A41F /* Supporting Files */,
@@ -192,8 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91819B471A69B2DF00B8A41F /* Main.storyboard in Resources */,
 				91819B4C1A69B2DF00B8A41F /* LaunchScreen.xib in Resources */,
+				919BCCA61A6AD8B100330649 /* Main_iPhoneV2.storyboard in Resources */,
 				91819B491A69B2DF00B8A41F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		91819B451A69B2DF00B8A41F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91819B461A69B2DF00B8A41F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		91819B4A1A69B2DF00B8A41F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +397,7 @@
 				91819B5D1A69B2DF00B8A41F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91819B5E1A69B2DF00B8A41F /* Build configuration list for PBXNativeTarget "CodeDesignChapter1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +406,7 @@
 				91819B601A69B2DF00B8A41F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
